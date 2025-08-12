@@ -1,0 +1,55 @@
+{
+  "name": "My workflow 2",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "event": "rowAdded",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "efb828fd-52e6-4e0b-9361-31303a460ef6",
+      "name": "Google Sheets Trigger",
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "dmbu8xdo1kYsS5HU",
+          "name": "Google Sheets Trigger account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "8de01f73-5252-4f24-a79c-261e71dd1d6c",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "cd1c00e120bf84a5e56a871d6d2d5623c18247fc216329461cbabf0e5b8f789f"
+  },
+  "id": "W37lYnfJs1WJwSdB",
+  "tags": []
+}
